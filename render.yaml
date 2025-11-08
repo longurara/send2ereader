@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: send2kindle
+    env: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: node index.js
